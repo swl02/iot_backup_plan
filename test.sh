@@ -1,0 +1,1 @@
+mosquitto_pub --cafile ca.crt -p 8883 -h "192.168.137.1" -t "device/subscribe/alarm" -m "hello"
